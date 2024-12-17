@@ -53,9 +53,5 @@ getgenv().petsGoConfig = {
     -- Gửi pet tới username ngẫu nhiên đã chọn
     USERNAME_TO_MAIL = sendto  -- Sử dụng sendto để mail pet tới người chơi
 }
-
--- Biến daubuoi có thể có mục đích cấu hình cho một số tính năng
-daubuoi = true
-
 -- Tải script từ một URL (có thể là phần mềm bên ngoài)
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e81ea00ef49a917bb1242da4f41dc4f9.lua"))()
