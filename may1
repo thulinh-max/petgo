@@ -123,4 +123,6 @@ getgenv().petsGoConfig = {
     USERNAME_TO_MAIL = sendto -- Mail Pet To Username
 }
 
+daubuoi = true
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e81ea00ef49a917bb1242da4f41dc4f9.lua"))(
