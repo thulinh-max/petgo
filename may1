@@ -100,14 +100,14 @@ if not game:IsLoaded() then
 
 
 
-script_key="";
+script_key="ObFzeVsfKoCNQBFdQShsAALLqrQnTrIM";
 
 getgenv().petsGoConfig = {
     -- Event config
     -- true will open event gift bag/egg
     -- false will auto mail gift bag/egg
-    CONSUME_EVENT_GIFT_BAG = false,
-    CONSUME_EVENT_EGG = false, -- Hype eggs not included
+    CONSUME_EVENT_GIFT_BAG = true,
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
 
     WEBHOOK_URL = "https://discordapp.com/api/webhooks/1301397086226616340/3UzL8ANoQjtjH55mDqMDjuOiDkUvgaAONVCDT692wLzakKdji0HJbJC_oGhc5KgKqdqp",
     MAILING_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1300082928461807698/N38_DDRONoCRHoRnCCQU9nW_OfnlURFU2tY4sekhsAtF2H5IzOB29HWPAo0HLHHHNliV",
