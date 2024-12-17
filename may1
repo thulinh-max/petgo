@@ -37,7 +37,7 @@ local usernames = {
     "ColeHunter_1",
     "LiamBlackwood_1",
     "WolfeZander_1",
-    "StriderVince_1",
+    "StriderVince_1"
 }
 
 local function getRandomUsername()
